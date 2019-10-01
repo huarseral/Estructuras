@@ -1,0 +1,50 @@
+.superior{
+	border: solid 1px red;
+	height: 30px;
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.superior a{
+	margin:5px;
+}
+
+.contenido{
+	margin:5px 0; 
+	border: solid 1px red;
+	height: 500px;
+	width: 100%;
+	display: flex;
+	justify-content: center;/*HORIZONTAL*/
+	align-items: center;/*VERTICAL*/
+}
+
+.contenido__centro{
+	width: 500px;
+	height: 250px;
+	border: solid;
+}
+
+.inferior{
+	border: solid 1px red;
+	height: 30px;
+	width: 100%;
+	margin-bottom: 2px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.inferior__izq{
+	border: solid 1px black;
+	height: 30px;
+	width: 400px;
+}
+
+.inferior__der{
+	border: solid 1px black;
+	height: 30px;
+	width: 200px;
+}
+
